@@ -31,4 +31,4 @@ jobs:
         run: docker tag ecommerce-js:latest 449126594637.dkr.ecr.us-east-1.amazonaws.com/ecommerce-js:latest
 
       - name: Push Image to ECR
-        run: docker push 123456789012.dkr.ecr.us-east-1.amazonaws.com/ecommerce-js:latest
+        run: docker push 449126594637.dkr.ecr.us-east-1.amazonaws.com/ecommerce-js:latest
