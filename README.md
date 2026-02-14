@@ -1,4 +1,4 @@
-<img width="1918" height="966" alt="Screenshot 2026-02-13 191647" src="https://github.com/user-attachments/assets/e8ed46e3-cb42-4d28-9a03-102a44d5b4f9" />🚀 End-to-End Cloud-Native Full Stack Web Application
+🚀 End-to-End Cloud-Native Full Stack Web Application
 
 📌 Overview
 
