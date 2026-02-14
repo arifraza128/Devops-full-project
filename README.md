@@ -35,28 +35,29 @@ f.	Prometheus Monitoring
 
 	Tech Stack
 
-Category           	Technology        
-Frontend	Html,  css, js       
-Backend	Node.js / Express
-Containerization	Docker  
-CI/CD              	GitHub Actions    
-Orchestration	Kubernetes
-Container Registry	AWS ECR           
-Cloud Platform     	AWS EC2           
-Monitoring	Prometheus
-Version Control    	Git & GitHub      
+	Category    -------  Technology   
+	Frontend    -------  Html,  css, js       
+	Backend    --------  Node.js / Express
+	Containerization -------  Docker
+	CI/CD              ---------   GitHub Actions    
+	Orchestration  ----------  Kubernetes
+	Container Registry  -------  AWS ECR           
+	Cloud Platform     -------   AWS EC2           
+	Monitoring     -------  Prometheus
+	Version Control     -------    Git & GitHub      
 
 
 •	Project Structure
 
 cloud-native-app/
-frontend	#React Frontend
-backend	#Node.js Backend
-docker	# Dockerfiles
-k8s	# Kubernetes Manifests
-.github/workflows	# CI/CD Pipeline
-monitoring	# Prometheus Config
-README.md	#----
+
+	Frontend   --------  #React Frontend
+	Backend    --------  #Node.js Backend
+	Docker       --------  # Dockerfiles
+	k8s              --------  # Kubernetes Manifests
+	 .github/workflows    --------  # CI/CD Pipeline
+	Monitoring     --------  # Prometheus Config
+	README.md   
 
 	Prerequisites
 
@@ -66,6 +67,9 @@ Ensure you have the following installed:
 	kubectl
 	AWS CLI
 	Git
+
+
+
  	CI/CD Pipeline Workflow
 
 1. Developer pushes code to GitHub
