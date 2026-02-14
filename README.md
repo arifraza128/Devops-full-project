@@ -43,7 +43,7 @@ Developer → GitHub → GitHub Actions (CI/CD)
 
 | Category           | Technology        |
 | ------------------ | ----------------- |
-| Frontend           | React.js          |
+| Frontend           | html,css,js       |
 | Backend            | Node.js / Express |
 | Containerization   | Docker            |
 | CI/CD              | GitHub Actions    |
