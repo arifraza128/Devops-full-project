@@ -1,0 +1,2 @@
+here i done ci/cd using git workflow and git action 
+and done ci/cd using AWS ECR 
