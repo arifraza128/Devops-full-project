@@ -1,0 +1,3 @@
+here i install kubectl and minikube 
+i created cluster pod and nod to deploy this project 
+then i deployed one service using kuburnetes
