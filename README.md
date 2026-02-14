@@ -1,11 +1,11 @@
 End-to-End Cloud-Native Full Stack Web Application
 
-	Overview
+Overview
 
 This project showcases a complete cloud-native full stack web application built with modern DevOps practices. It features containerization, CI/CD automation, Kubernetes deployment, AWS container registry integration, and real-time monitoring. 
 The aim of this project is to display a production-ready DevOps workflow from development to deployment and monitoring.
 
-	Key Features
+Key Features
 
 I.	Full Stack Web Application (Frontend + Backend)
 II.	Containerization using Docker
@@ -20,57 +20,57 @@ VII.	Scalable & Cloud-Native Architecture
 
  	Architecture Diagram
 
-a.	Developer → GitHub → GitHub Actions (CI/CD)
-↓
-b.	Build Docker Image
-↓
-c.	Push to AWS ECR
-↓
-d.	Kubernetes Deployment
-↓
-e.	Service Exposure (NodePort)
-↓
-f.	Prometheus Monitoring
 
 
-	Tech Stack
+Tech Stack
 
-	Category    -------  Technology   
-	Frontend    -------  Html,  css, js       
-	Backend    --------  Node.js / Express
-	Containerization -------  Docker
-	CI/CD              ---------   GitHub Actions    
-	Orchestration  ----------  Kubernetes
-	Container Registry  -------  AWS ECR           
-	Cloud Platform     -------   AWS EC2           
-	Monitoring     -------  Prometheus
-	Version Control     -------    Git & GitHub      
+Category    -------  Technology   
+Frontend    -------  Html,  css, js       
+Backend    --------  Node.js / Express
+Containerization -------  Docker
+CI/CD              ---------   GitHub Actions    
+Orchestration  ----------  Kubernetes
+Container Registry  -------  AWS ECR           
+Cloud Platform     -------   AWS EC2           
+Monitoring     -------  Prometheus
+Version Control     -------    Git & GitHub      
 
 
 •	Project Structure
+Developer → GitHub → GitHub Actions (CI/CD)
+              ↓
+        Build Docker Image
+              ↓
+        Push to AWS ECR
+              ↓
+      Kubernetes Deployment
+              ↓
+    Service Exposure (NodePort)
+              ↓
+        Prometheus Monitoring
 
 cloud-native-app/
 
-	Frontend   --------  #React Frontend
-	Backend    --------  #Node.js Backend
-	Docker       --------  # Dockerfiles
-	k8s              --------  # Kubernetes Manifests
-	 .github/workflows    --------  # CI/CD Pipeline
-	Monitoring     --------  # Prometheus Config
-	README.md   
+Frontend   --------  java Frontend
+Backend    --------  Node.js Backend
+Docker     --------  Dockerfiles
+k8s        --------  Kubernetes Manifests
+.github/workflows  --------  CI/CD Pipeline
+Monitoring     --------  Prometheus Config
+README.md   
 
-	Prerequisites
+	Prerequisites
 
 Ensure you have the following installed:
-	Docker
-	Kubernetes (Minikube or EKS)
-	kubectl
-	AWS CLI
-	Git
+Docker
+Kubernetes (Minikube)
+kubectl
+AWS CLI
+Git
 
 
 
- 	CI/CD Pipeline Workflow
+ CI/CD Pipeline Workflow
 
 1. Developer pushes code to GitHub
 2. GitHub Actions triggers workflow
@@ -79,7 +79,7 @@ Ensure you have the following installed:
 5. Kubernetes pulls image and deploys
 6. Prometheus monitors application metrics
 
-	Docker Build & Push
+Docker Build & Push
 
 bash
 docker build -t cloud-native-app .
@@ -87,7 +87,7 @@ docker tag cloud-native-app:latest <AWS_ECR_REPO_URL>
 docker push <AWS_ECR_REPO_URL>
 
 
-	Kubernetes Deployment
+Kubernetes Deployment
 
 bash
 kubectl apply -f k8s/deployment.yaml
@@ -117,23 +117,23 @@ Then open: http://localhost:9090
 Create a .env file:
 
 PORT=5000
-MONGO_URI=your_database_url
+POSTGRL_URI=your_database_url
 AWS_REGION=us-east-1
 ECR_REPO=your_ecr_repo_url
 
 
-	Contributing
+Contributing
 
 Contributions are welcome!
 Fork the repo, create a branch, and submit a pull request.
 
 
-	License
+License
 
 This project is licensed under the MIT License.
 
 
-	Author
+Author
 
 Arif Raza
 🎓 B.Tech Cloud Computing Student
