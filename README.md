@@ -39,7 +39,7 @@ Developer → GitHub → GitHub Actions (CI/CD)
 
 ---
 
-## 🛠️ Tech Stack
+🛠️ Tech Stack
 
 | Category           | Technology        |
 | ------------------ | ----------------- |
@@ -105,8 +105,8 @@ docker push <AWS_ECR_REPO_URL>
 ☸️ Kubernetes Deployment
 
 ```bash
-kubectl apply -f k8s/deployment.yaml
-kubectl apply -f k8s/service.yaml
+kubectl apply -f k8s/backend-deployment.yaml
+kubectl apply -f k8s/ecommerce-service.yaml
 kubectl get pods
 kubectl get svc
 ```
